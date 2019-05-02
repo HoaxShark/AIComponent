@@ -2,7 +2,9 @@
 
 ## Instructions
 Press A to start the AI running  
-Press S to stop the AI at any time
+Press S to stop the AI at any time (Do this after completing a level to free your mouse)
+
+Only Level 1 and 2 are currently avaliable
 
 ## First iteration
 I have created an AI system that plays ink'd, my second year group project.  
