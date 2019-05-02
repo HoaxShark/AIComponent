@@ -18,7 +18,8 @@ I ran into problems with this plan due to a couple of reasons, the first being t
 The next route I tried and ended up sticking with is for the AI to raycast out from the player in different directions to look for a good grab, these rays are weighted towards better grabs where a 45 degree angle is best when available slowly decreasing weight as the angle changes away from this. In this form the AI does not remember any of its moves and every play through works it's way through the level fresh. I found that the AI would often get stuck if right next to an object choosing to grab it as the angle was best, to counteract this I added a check for minimum grab distance, and if an object is too close the AI will try to climb upwards.  
 Goals for this AI have been created in the form of "gates" that are placed in the level. The AI aims to reach these gates and then aims to reach the next, this helps with more complicated level paths that go back on themselves and down or up.  
 I have added the ability to change a lot of the controlling variables in the unity inspector so that designers and myself can easily edit how it plays.  
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+
+![alt text](https://raw.githubusercontent.com/HoaxShark/AIComponent/master/Images/inspector.PNG)
 
 ## Conclusion
 Overall this final version is good as a proof of concept, however it currently struggles with levels that have hazards or slopes. I think the best way to handle these in the future to to move to a machine learning approach where the AI can discover the best routes to avoid hazards itself. 
