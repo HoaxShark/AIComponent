@@ -1,6 +1,9 @@
 # AIComponent
 
 ## Instructions
+Download the build folder and run Ink'd.exe
+
+Select a level
 Press A to start the AI running  
 Press S to stop the AI at any time (Do this after completing a level to free your mouse)
 
